@@ -1,0 +1,11 @@
+/* Product.css */
+.product {
+    width: 200px; /* Set your initial image size */
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .product.touched {
+    transform: scale(1.2); /* Increase the size when touched */
+  }
+  
