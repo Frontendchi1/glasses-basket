@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import Products from "./Products";
 
 function Navbar() {
   const { amount } = useSelector((state) => state.basket);
