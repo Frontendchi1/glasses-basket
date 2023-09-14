@@ -15,7 +15,10 @@ function Products() {
             price={item.price}
             image={item.image}
             amount={item.amount}
-          />
+          />      
+
+
+          
         ))}
       </div>
       <div>
