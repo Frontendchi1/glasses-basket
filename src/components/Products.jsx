@@ -21,7 +21,7 @@ function Products() {
       <div>
         {products.length > 0 ? (
           <>
-            <p className="text-[20px] mt-5 text-center  ">Total: ${total.toFixed(2)}</p>
+            <p className="text-[20px] mt-5 text-center">Total: ${total.toFixed(2)}</p>
           </>
         ) : (
           <>
